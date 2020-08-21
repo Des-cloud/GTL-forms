@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+            initial-scale=1, shrink-to-fit=no">
+  <title>interndetails</title>
+
+  <!--Boostrap CSS files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/scholarship.css">
+
+  <style>
+    label {
+      font-size: 20px;
+    }
+
+    .btn {
+      background-color: #F26526;
+      color: #ececec;
+      width: 200px;
+      float: right;
+      margin-right: 20%;
+    }
+
+    i {
+      float: right;
+      color: green;
+      padding: 5px;
+    }
+
+    @media screen and (max-width: 800px) {
+      .first {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      .title {
+        margin-left: 50px;
+      }
+
+      .form-group {
+        margin-left: 25px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+
+      <!--Column for image-->
+      <div class="col-lg-4 col-md-12" style="background: url('img/interndetails.png');
+          background-size: cover;
+          background-position-y: center;">
+
+        <!--Text fields-->
+        <div class="first">
+
+          <div class="col-md-12">
+            <p class="jumbotronArea my-5 px-2" style="background-color: #F26526; color: #fff;">1. Intern Details</p>
+          </div>
+
+          <div class="col-md-12 my-auto">
+            <p class="jumbotronArea my-5 px-2">2. Company Details</p>
+          </div>
+
+          <div class="col-md-12 my-auto">
+            <p class="jumbotronArea my-5 px-2">3. Code of Conduct</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!--Second column for forms-->
+      <div class="col-lg-7 col-md-11 ml-auto">
+        <div class="title text-center">
+          <h5 class="text-info head" style="margin-bottom: 15px;">REGISTRATION FORM</h5>
+          <h2 class="font-weight-bold"><b>INTERN DETAILS</b></h2>
+        </div>
+
+        <!--Work on form here-->
+        <div class="form">
+          <form action="#" method="get">
+
+            <!--Question 1-->
+            <div class="form-group shadow-textarea">
+              <label for="name">Intern Name</label>
+              <input type="text" name="name" placeholder="" class="form-control makeBig">
+            </div>
+
+            <!--Question 2-->
+            <div class="form-group shadow-textarea">
+              <label for="number">Intern Number</label>
+              <input type="text" name="number" class="form-control makeBig">
+            </div>
+
+            <!--Question 3-->
+            <div class="form-group shadow-textarea">
+              <label for="email">Intern Email</label>
+              <input class="form-control makeBig" type="email" name="email" placeholder="">
+            </div>
+
+            <!--Question 4-->
+            <div class="form-group shadow-textarea">
+              <label for="hubName">Hub Name</label>
+              <input type="text" name="hubname" placeholder="" class="form-control makeBig">
+            </div>
+
+            <!--Question 5-->
+            <div class="form-group shadow-textarea">
+              <label for="startDate">Start Date</label>
+              <input type="text" name="startDate" placeholder="" class="form-control makeBig">
+            </div>
+
+            <!--Question 6-->
+            <div class="form-group shadow-textarea">
+              <label for="Facilitator">Internship Facilitator's Name</label>
+              <input type="text" name="FacilitatorName" placeholder="" class="form-control makeBig">
+            </div>
+
+            <!--Next button-->
+            <button class="btn btn-lg btn-block my-5" type="submit">NEXT</button>
+
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+  <!-- Javascript files -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
